@@ -1,0 +1,21 @@
+USE [StudioTaher]
+GO
+
+/****** Object:  Table [dbo].[loginAdmin]    Script Date: 18/11/2015 11:37:43 ã ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[loginAdmin](
+	[UserName] [nvarchar](20) NOT NULL,
+	[Password] [nvarchar](10) NOT NULL,
+	[JobEmployee] [nvarchar](25) NOT NULL,
+ CONSTRAINT [PK_loginAdmin] PRIMARY KEY CLUSTERED 
+(
+	[Password] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO

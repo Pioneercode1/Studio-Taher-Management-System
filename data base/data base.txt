@@ -1,0 +1,11 @@
+USE [master]
+GO
+
+/****** Object:  Database [StudioTaher]    Script Date: 18/11/2015 11:33:32 ã ******/
+CREATE DATABASE [StudioTaher]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'StudioTaher', FILENAME = N'C:\Program Files (x86)\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\DATA\StudioTaher.mdf' , SIZE = 5120KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
+ LOG ON 
+( NAME = N'StudioTaher_log', FILENAME = N'C:\Program Files (x86)\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\DATA\StudioTaher_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
+GO

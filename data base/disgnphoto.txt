@@ -1,0 +1,16 @@
+USE [StudioTaher]
+GO
+
+/****** Object:  Table [dbo].[disgnphoto]    Script Date: 18/11/2015 11:36:36 ã ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[disgnphoto](
+	[custsize] [nvarchar](50) NOT NULL,
+	[custprise] [decimal](8, 2) NOT NULL
+) ON [PRIMARY]
+
+GO

@@ -1,0 +1,33 @@
+USE [StudioTaher]
+GO
+
+/****** Object:  Table [dbo].[CustomerPhoto]    Script Date: 18/11/2015 11:34:58 ã ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[CustomerPhoto](
+	[CusId] [int] IDENTITY(1,1) NOT NULL,
+	[CusName] [nvarchar](50) NULL,
+	[CusSize] [nvarchar](300) NULL,
+	[CusUnit] [nvarchar](50) NULL,
+	[AllPrise] [decimal](8, 0) NULL,
+	[JetPrise] [decimal](8, 0) NULL,
+	[SetPrise] [decimal](8, 0) NULL,
+	[CusGavet] [nvarchar](50) NULL,
+	[OrderBy] [nvarchar](20) NULL,
+	[AboutOrder] [nvarchar](20) NULL,
+	[FriDate] [date] NULL,
+	[SecDate] [date] NULL,
+	[CusNotes] [nvarchar](300) NULL,
+	[CusPhone] [nvarchar](30) NULL,
+ CONSTRAINT [PK_CustomerPhoto] PRIMARY KEY CLUSTERED 
+(
+	[CusId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+

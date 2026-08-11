@@ -1,0 +1,29 @@
+USE [StudioTaher]
+GO
+
+/****** Object:  Table [dbo].[EmployeeResource]    Script Date: 18/11/2015 11:37:11 ã ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[EmployeeResource](
+	[EmpId] [int] IDENTITY(1,1) NOT NULL,
+	[EmpName] [nvarchar](30) NULL,
+	[EmpAddress] [nvarchar](50) NULL,
+	[EmpPhone] [nvarchar](30) NULL,
+	[EmpSchool] [nvarchar](50) NULL,
+	[EmpIdPerson] [nvarchar](30) NULL,
+	[EmpServise] [nvarchar](30) NULL,
+	[EmpJop] [nvarchar](50) NULL,
+	[EmpPrise] [decimal](10, 0) NULL,
+	[WorkDate] [date] NULL,
+	[EmpNotes] [nvarchar](300) NULL,
+ CONSTRAINT [PK_EmployeeResource] PRIMARY KEY CLUSTERED 
+(
+	[EmpId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
