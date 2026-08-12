@@ -66,6 +66,7 @@ Partial Class FrmMain
         '
         Me.InsedCus.BackColor = System.Drawing.Color.Transparent
         resources.ApplyResources(Me.InsedCus, "InsedCus")
+        Me.InsedCus.FlatAppearance.BorderSize = 0
         Me.InsedCus.ForeColor = System.Drawing.Color.Black
         Me.InsedCus.Name = "InsedCus"
         Me.InsedCus.UseVisualStyleBackColor = False
@@ -75,6 +76,7 @@ Partial Class FrmMain
         Me.Button1.BackColor = System.Drawing.Color.Transparent
         Me.Button1.BackgroundImage = Global.StudioTaher.My.Resources.Resources.Untitleخخ
         resources.ApplyResources(Me.Button1, "Button1")
+        Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.ForeColor = System.Drawing.Color.Black
         Me.Button1.Name = "Button1"
         Me.Button1.UseVisualStyleBackColor = False

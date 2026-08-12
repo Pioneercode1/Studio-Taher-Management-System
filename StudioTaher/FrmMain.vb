@@ -10,7 +10,9 @@ Public Class FrmMain
     Dim idp2 As String
     Public Sub myconnaction()
         Try
-            Conn = New SqlConnection("Data Source=.\SQLExpress; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
+            'Conn = New SqlConnection("Data Source=.\SQLExpress; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
+            Dim connectionString As String = "Data Source=(LocalDB)\MSSQLLocalDB; Initial Catalog=StudioTaher; Integrated Security=True;"
+            Conn = New SqlConnection(connectionString)
             myCommand = New SqlCommand("select UserName,Password,JobEmployee from loginAdmin where UserName = @UserName and Password = @Password and JobEmployee = @JobEmployee ", Conn)
             Dim uName As New SqlParameter("@UserName", SqlDbType.NVarChar)
             Dim uPassword As New SqlParameter("@Password", SqlDbType.NVarChar)
@@ -50,16 +52,6 @@ Public Class FrmMain
             myCommand.Dispose()
             Conn.Close()
         Catch ex As SqlException
-            MsgBox(ex.Message, "ستديو وفيديو طاهر")
-        End Try
-    End Sub
-    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        Try
-            If MessageBox.Show("هل تريد الخروج من البرنامج", "ستديو وفيديو طاهر", MessageBoxButtons.YesNo) = Windows.Forms.DialogResult.No Then
-                Exit Sub
-            End If
-            Application.Exit()
-        Catch ex As Exception
             MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
     End Sub
@@ -91,15 +83,10 @@ Public Class FrmMain
         End Try
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Try
-            If MessageBox.Show("هل تريد الخروج من البرنامج", "ستديو وفيديو طاهر", MessageBoxButtons.YesNo) = Windows.Forms.DialogResult.No Then
-                Exit Sub
-            End If
+    Private Sub ExitButtons_Click(sender As Object, e As EventArgs) Handles Button13.Click, Button1.Click
+        If MessageBox.Show("هل تريد الخروج من البرنامج؟", "ستديو وفيديو طاهر", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
             Application.Exit()
-        Catch ex As Exception
-            MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
-        End Try
+        End If
     End Sub
 
     Private Sub cbUserType_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbUserType.SelectedIndexChanged

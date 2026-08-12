@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FrmSearch
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class FrmSearch
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmSearch))
         Me.Label12 = New System.Windows.Forms.Label()
@@ -31,7 +31,6 @@ Partial Class FrmSearch
         Me.btnclose = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -43,7 +42,7 @@ Partial Class FrmSearch
         Me.Label12.ForeColor = System.Drawing.Color.Maroon
         Me.Label12.Location = New System.Drawing.Point(254, 74)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(227, 35)
+        Me.Label12.Size = New System.Drawing.Size(221, 35)
         Me.Label12.TabIndex = 38
         Me.Label12.Text = "تحت رعاية ستديو وفيديو طاهر"
         '
@@ -66,7 +65,7 @@ Partial Class FrmSearch
         Me.Label1.ForeColor = System.Drawing.Color.Maroon
         Me.Label1.Location = New System.Drawing.Point(138, 39)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(349, 35)
+        Me.Label1.Size = New System.Drawing.Size(337, 35)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "هذا البرنامج من تصميم المبرمج كريم مجدى هاشم"
         '
@@ -89,12 +88,12 @@ Partial Class FrmSearch
         Me.Label17.AutoSize = True
         Me.Label17.BackColor = System.Drawing.Color.Transparent
         Me.Label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label17.Font = New System.Drawing.Font("PT Bold Heading", 14.25!)
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
         Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label17.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.Label17.Location = New System.Drawing.Point(381, 4)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(165, 34)
+        Me.Label17.Size = New System.Drawing.Size(132, 24)
         Me.Label17.TabIndex = 184
         Me.Label17.Text = "ستوديو وفيديو طاهر"
         '
@@ -115,11 +114,11 @@ Partial Class FrmSearch
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Aldhabi", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(178, Byte))
-        Me.Label2.Location = New System.Drawing.Point(219, 147)
+        Me.Label2.Location = New System.Drawing.Point(305, 147)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(257, 38)
+        Me.Label2.Size = New System.Drawing.Size(186, 38)
         Me.Label2.TabIndex = 187
-        Me.Label2.Text = "م/ طاهر السيد 01093341662_01211756527"
+        Me.Label2.Text = "م/ طاهر السيد 01093341662"
         '
         'Label4
         '
@@ -128,20 +127,9 @@ Partial Class FrmSearch
         Me.Label4.Font = New System.Drawing.Font("Aldhabi", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(178, Byte))
         Me.Label4.Location = New System.Drawing.Point(303, 184)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(173, 38)
+        Me.Label4.Size = New System.Drawing.Size(188, 38)
         Me.Label4.TabIndex = 188
-        Me.Label4.Text = "م/ كريم هاشم 01013700906"
-        '
-        'Label5
-        '
-        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Aldhabi", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(178, Byte))
-        Me.Label5.Location = New System.Drawing.Point(12, 213)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(161, 38)
-        Me.Label5.TabIndex = 189
-        Me.Label5.Text = "شكرا خاص ا. أمجد ابوالعلا"
+        Me.Label4.Text = "م/ كريم هاشم 01002646280"
         '
         'FrmSearch
         '
@@ -149,7 +137,6 @@ Partial Class FrmSearch
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Teal
         Me.ClientSize = New System.Drawing.Size(572, 260)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnclose)
@@ -178,5 +165,4 @@ Partial Class FrmSearch
     Friend WithEvents btnclose As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
 End Class

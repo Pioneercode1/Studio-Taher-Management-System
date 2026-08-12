@@ -46,7 +46,7 @@ Public Class frmdesignphoto
     End Sub
     Public Sub myconnaction()
         Try
-            Conn = New SqlConnection("Data Source=.\SQLExpress; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
+            Conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
             ds = New DataSet
             da = New SqlDataAdapter("select * from disgnphoto", Conn)
             da.Fill(ds, "disgnphoto")

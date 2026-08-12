@@ -68,7 +68,7 @@ Public Class frmtools
     End Sub
     Public Sub myconnaction2()
         Try
-            conn = New SqlConnection("Data Source=.\SQLExpress; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
+            conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
             ds = New DataSet
             da = New SqlDataAdapter("select * from disgnphoto", conn)
             da.Fill(ds, "disgnphoto")

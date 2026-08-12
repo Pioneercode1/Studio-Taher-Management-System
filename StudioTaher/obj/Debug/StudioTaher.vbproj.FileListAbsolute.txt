@@ -1,189 +1,120 @@
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.exe.config
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.exe
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.pdb
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.xml
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\bin\Debug\ar\StudioTaher.resources.dll
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\bin\Debug\af\StudioTaher.resources.dll
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmdesignphoto.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMain.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmPhoto.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprinteemployee.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintemarrage.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintevideo.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintphoto.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmSearch.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmtools.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmVideo.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.Resources.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.ar.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMain.ar.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.ar.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.af.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.ar.resources
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.vbproj.GenerateResource.Cache
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\RdlCompile.cache
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\RdlCompile.compiled
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\ar\StudioTaher.resources.dll
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\af\StudioTaher.resources.dll
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.exe
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.xml
-C:\Users\كريم\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.pdb
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\bin\Debug\StudioTaher.exe.config
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\bin\Debug\StudioTaher.exe
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\bin\Debug\StudioTaher.pdb
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\bin\Debug\StudioTaher.xml
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\bin\Debug\ar\StudioTaher.resources.dll
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\bin\Debug\af\StudioTaher.resources.dll
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmdesignphoto.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMain.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmPhoto.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprinteemployee.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintemarrage.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintevideo.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintphoto.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmSearch.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmtools.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmVideo.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.Resources.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.ar.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMain.ar.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.ar.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.af.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.ar.resources
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.vbproj.GenerateResource.Cache
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\RdlCompile.cache
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\RdlCompile.compiled
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\ar\StudioTaher.resources.dll
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\af\StudioTaher.resources.dll
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.exe
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.xml
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.pdb
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.vbprojResolveAssemblyReference.cache
-E:\البرامج المتقدمة\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmsum.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.exe.config
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.exe
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.pdb
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.xml
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\bin\Debug\ar\StudioTaher.resources.dll
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\bin\Debug\af\StudioTaher.resources.dll
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmdesignphoto.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMain.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmPhoto.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprinteemployee.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintemarrage.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintevideo.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintphoto.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmSearch.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmsum.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmtools.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmVideo.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.Resources.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.ar.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMain.ar.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.ar.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.af.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.ar.resources
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.vbproj.GenerateResource.Cache
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\RdlCompile.cache
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\RdlCompile.compiled
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\ar\StudioTaher.resources.dll
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\af\StudioTaher.resources.dll
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.exe
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.xml
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.pdb
-C:\Users\taher pc\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.vbprojResolveAssemblyReference.cache
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.vbproj.AssemblyReference.cache
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmdesignphoto.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMain.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmPhoto.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprinteemployee.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintemarrage.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintevideo.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmprintphoto.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmSearch.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmsum.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.frmtools.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmVideo.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.Resources.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.ar.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMain.ar.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.ar.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.af.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.FrmOP.ar.resources
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.vbproj.GenerateResource.cache
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.vbproj.CoreCompileInputs.cache
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.exe
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.xml
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTaher.pdb
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.exe.config
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.exe
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.pdb
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\StudioTaher.xml
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ar\StudioTaher.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\af\StudioTaher.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\EnvDTE.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\ar\StudioTaher.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\af\StudioTaher.resources.dll
-C:\Users\pione\Desktop\StudioTaher\StudioTaher\obj\Debug\StudioTa.A0D1BB37.Up2Date
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\x86\SqlServerSpatial170.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\x64\SqlServerSpatial170.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\arm64\SqlServerSpatial170.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\StudioTaher.exe.config
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\StudioTaher.exe
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\StudioTaher.pdb
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\StudioTaher.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ar\StudioTaher.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\af\StudioTaher.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.SqlServer.Server.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Buffers.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Collections.Immutable.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Formats.Nrbf.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Memory.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Numerics.Vectors.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Reflection.Metadata.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Resources.Extensions.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\EnvDTE.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.SqlServer.Server.pdb
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\Microsoft.SqlServer.Server.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Buffers.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Collections.Immutable.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Formats.Nrbf.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Memory.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Numerics.Vectors.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Reflection.Metadata.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Resources.Extensions.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.vbproj.AssemblyReference.cache
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.vbproj.SuggestedBindingRedirects.cache
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.exe.config
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.frmdesignphoto.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmMain.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmOP.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmPhoto.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.frmprinteemployee.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.frmprintemarrage.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.frmprintevideo.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.frmprintphoto.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmSearch.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.frmsum.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.frmtools.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmVideo.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.Resources.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmEmployee.ar.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmMain.ar.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmMarrage.ar.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmOP.af.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.FrmOP.ar.resources
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.vbproj.GenerateResource.cache
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.vbproj.CoreCompileInputs.cache
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\ar\StudioTaher.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\af\StudioTaher.resources.dll
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTa.A0D1BB37.Up2Date
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.exe
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.xml
+E:\CSharp\Studio-Taher-3.0\StudioTaher\obj\Debug\StudioTaher.pdb
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\StudioTaher.mdf
+E:\CSharp\Studio-Taher-3.0\StudioTaher\bin\Debug\StudioTaher_log.ldf

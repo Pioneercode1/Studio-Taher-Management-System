@@ -14,7 +14,7 @@ Public Class FrmPhoto
     Public cmd As New SqlCommand
     Public Sub myconnaction()
         Try
-            Conn = New SqlConnection("Data Source=.\SQLExpress; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
+            Conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
             ds = New DataSet
             da = New SqlDataAdapter("select * from CustomerPhoto", Conn)
             da.Fill(ds, "CustomerPhoto")
@@ -306,7 +306,7 @@ Public Class FrmPhoto
     Private Sub txtcustsearch_TextChanged(sender As Object, e As EventArgs) Handles txtcustsearch.TextChanged
         Try
             dgrview.ClearSelection()
-            Conn = New SqlConnection("Data Source=.\SQLExpress; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
+            Conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
             ds = New DataSet
             da = New SqlDataAdapter(String.Format("select * from CustomerPhoto where CusName like '%{0}%'", txtcustsearch.Text), Conn)
             da.Fill(ds, "CustomerPhoto")

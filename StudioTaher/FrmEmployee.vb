@@ -25,7 +25,7 @@ Public Class FrmEmployee
 
     Public Sub myconnaction()
         Try
-            conn = New SqlConnection("Data Source=.\SQLExpress; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
+            conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
             ds = New DataSet
             da = New SqlDataAdapter("select * from EmployeeResource", conn)
             da.Fill(ds, "EmployeeResource")
