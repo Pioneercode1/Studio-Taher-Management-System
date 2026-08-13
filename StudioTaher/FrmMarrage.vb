@@ -303,7 +303,7 @@ Public Class FrmMarrage
     Private Sub txtcustsearch_TextChanged(sender As Object, e As EventArgs) Handles txtcustsearch.TextChanged
         Try
             dgrview.ClearSelection()
-            conn = New SqlConnection("Data Source=.\SQLExpress; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
+            conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
             ds = New DataSet
             da = New SqlDataAdapter(String.Format("select * from marage where Cusname like '%{0}%'", txtcustsearch.Text), conn)
             da.Fill(ds, "marage")

@@ -83,7 +83,7 @@ Public Class frmtools
 
     Public Sub myconnaction()
         Try
-            conn = New SqlConnection("Data Source=.\SQLExpress; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
+            conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
             ds = New DataSet
             da = New SqlDataAdapter("select * from loginAdmin", conn)
             da.Fill(ds, "loginAdmin")

@@ -1,86 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|e:\\csharp\\studio-taher-3.0\\studiotaher\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|solutionrelative:frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|e:\\csharp\\studio-taher-3.0\\studiotaher\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|solutionrelative:frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|e:\\csharp\\studio-taher-3.0\\studiotaher\\frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|solutionrelative:frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|e:\\csharp\\studio-taher-3.0\\studiotaher\\frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|solutionrelative:frmmain.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmtools.vb",
-              "DocumentMoniker": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\frmtools.vb",
-              "RelativeDocumentMoniker": "frmtools.vb",
-              "ToolTip": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\frmtools.vb",
-              "RelativeToolTip": "frmtools.vb",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAswAYBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-08-12T21:11:43.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmtools.vb [Design]",
-              "DocumentMoniker": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\frmtools.vb",
-              "RelativeDocumentMoniker": "frmtools.vb",
-              "ToolTip": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\frmtools.vb [Design]",
-              "RelativeToolTip": "frmtools.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-08-12T21:11:29.581Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmMain.vb",
-              "DocumentMoniker": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\FrmMain.vb",
-              "RelativeDocumentMoniker": "FrmMain.vb",
-              "ToolTip": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\FrmMain.vb",
-              "RelativeToolTip": "FrmMain.vb",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAowBQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-08-12T21:09:49.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmMain.vb [Design]",
-              "DocumentMoniker": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\FrmMain.vb",
-              "RelativeDocumentMoniker": "FrmMain.vb",
-              "ToolTip": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\FrmMain.vb [Design]",
-              "RelativeToolTip": "FrmMain.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-08-12T21:09:44.14Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

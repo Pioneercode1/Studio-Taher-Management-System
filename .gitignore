@@ -4,6 +4,7 @@
 [Oo]bj/
 [Dd]ebug/
 [Rr]elease/
+InstallerOutput/
 *.user
 *.suo
 *.userosscache
