@@ -3,37 +3,38 @@ Imports System.Data.SqlClient
 Imports System.Management
 
 Public Class frmtools
-    Dim idp As String ' المعالج رقم
-    Dim idp1 As String ' التسجیل رقم
-    Dim idp2 As String ' التفعیل رقم
-    Dim conn As New SqlConnection
-    Dim ds As New DataSet
-    Dim da As New SqlDataAdapter
-    Public cmd As New SqlCommand
-    Public Function OnlyNumeric(ByVal Key As String) As Boolean
 
+    Dim idp As String  ' رقم المعالج
+    Dim idp1 As String ' رقم التسجيل
+    Dim idp2 As String ' رقم التفعيل
+
+    ' دالة التحقق من أرقام فقط
+    Public Function OnlyNumeric(ByVal Key As Integer) As Boolean
         If (Key >= 48 And Key <= 57) Or Key = 8 Then
-            OnlyNumeric = False
+            Return False
         Else
-            OnlyNumeric = True
+            Return True
         End If
     End Function
-    Public Function OnlyCharacter(ByVal key As String) As Boolean
+
+    ' دالة التحقق من أحرف فقط
+    Public Function OnlyCharacter(ByVal key As Integer) As Boolean
         If ((key >= 65 And key <= 90) Or (key >= 97 And key <= 122) Or key = 8) Then
-            OnlyCharacter = False
+            Return False
         Else
-            OnlyCharacter = True
+            Return True
         End If
     End Function
+
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
         Try
             Me.Close()
         Catch ex As Exception
             MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
-
     End Sub
 
+    ' التحقق من السيريال وتفعيل البرنامج
     Private Sub btnserialok_Click(sender As Object, e As EventArgs) Handles btnserialok.Click
         Try
             If Len(Trim(TextBoxUser.Text)) = 0 Then
@@ -41,12 +42,14 @@ Public Class frmtools
                 TextBoxReg.Focus()
                 Exit Sub
             End If
-            '  جمالي متغير '
+
             idp2 = idp1
             If TextBoxUser.Text = idp2 Then
-                '     حفظ الاعدادت
+                ' حفظ الإعدادات
                 My.Settings.nameuser = TextBoxUser.Text
+                My.Settings.mysavety = True
                 My.Settings.Save()
+
                 MessageBox.Show("شكرا جزيلا لك على ثقتك بنا", "ستديو وفيديو طاهر")
                 Labeserialsend.Visible = False
                 Labeserial.Visible = False
@@ -55,8 +58,6 @@ Public Class frmtools
                 TextBoxUser.Visible = False
                 btnserialok.Visible = False
                 btnserial.Visible = False
-                My.Settings.mysavety = True
-                My.Settings.Save()
             Else
                 MessageBox.Show("من فضلك ادخل رقم صحيح", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 Exit Sub
@@ -64,143 +65,213 @@ Public Class frmtools
         Catch ex As Exception
             MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
-
-    End Sub
-    Public Sub myconnaction2()
-        Try
-            conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
-            ds = New DataSet
-            da = New SqlDataAdapter("select * from disgnphoto", conn)
-            da.Fill(ds, "disgnphoto")
-            conn.Open()
-            conn.Close()
-        Catch ex As Exception
-            MsgBox(ex.Message, "ستديو وفيديو طاهر")
-        End Try
-
-    End Sub
-
-
-    Public Sub myconnaction()
-        Try
-            conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")
-            ds = New DataSet
-            da = New SqlDataAdapter("select * from loginAdmin", conn)
-            da.Fill(ds, "loginAdmin")
-            conn.Open()
-        Catch ex As SqlException
-            MsgBox(ex.Message, "ستديو وفيديو طاهر")
-        Finally
-            conn.Close()
-        End Try
     End Sub
 
     Private Sub btnsave_Click(sender As Object, e As EventArgs) Handles btnsave.Click
         Try
-            If txtPassword.Text <> txtPassword2.Text Then
-                MessageBox.Show("كلمة المرور غير متطابقة", "ستديو وفيديو طاهر")
+            ' 1. التحقق من إدخال اسم المستخدم
+            If String.IsNullOrWhiteSpace(txtUserName.Text) Then
+                MessageBox.Show("من فضلك ادخل اسم المستخدم", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                txtUserName.Focus()
                 Exit Sub
             End If
-            myconnaction()
-            cmd = New SqlCommand("INSERT INTO loginAdmin(UserName,Password,JobEmployee)" & _
-            "VALUES('" & txtUserName.Text & "','" & txtPassword.Text & "','" & cbJobEmployee.Text & "')", conn)
-            If conn.State = ConnectionState.Open Then conn.Close()
-            conn.Open()
-            cmd.ExecuteNonQuery()
-            conn.Close()
-            MessageBox.Show("تم حفظ المستخدم بنجاح", "ستديو وفيديو طاهر")
+
+            ' 2. التحقق من إدخال كلمة المرور
+            If String.IsNullOrWhiteSpace(txtPassword.Text) Then
+                MessageBox.Show("من فضلك ادخل كلمة المرور", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                txtPassword.Focus()
+                Exit Sub
+            End If
+
+            ' 3. التحقق من إدخال تأكيد كلمة المرور
+            If String.IsNullOrWhiteSpace(txtPassword2.Text) Then
+                MessageBox.Show("من فضلك أعد كتابة كلمة المرور لتأكيدها", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                txtPassword2.Focus()
+                Exit Sub
+            End If
+
+            ' 4. التحقق من تطابق كلمتي المرور
+            If txtPassword.Text <> txtPassword2.Text Then
+                MessageBox.Show("كلمة المرور غير متطابقة", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                txtPassword2.Focus()
+                txtPassword2.SelectAll()
+                Exit Sub
+            End If
+
+            ' 5. التحقق من اختيار وظيفة/صلاحية الموظف
+            If String.IsNullOrWhiteSpace(cbJobEmployee.Text) Then
+                MessageBox.Show("من فضلك اختر وظيفة الموظف", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                cbJobEmployee.Focus()
+                Exit Sub
+            End If
+
+            ' 6. التحقق والحفظ في قاعدة البيانات
+            Using conn As New SqlConnection(Module1.ConStr)
+                conn.Open()
+
+                ' التثبت من عدم تكرار اسم المستخدم
+                Dim checkQuery As String = "SELECT COUNT(*) FROM loginAdmin WHERE UserName = @User"
+                Using checkCmd As New SqlCommand(checkQuery, conn)
+                    checkCmd.Parameters.Add("@User", SqlDbType.NVarChar).Value = txtUserName.Text.Trim()
+                    Dim userCount As Integer = Convert.ToInt32(checkCmd.ExecuteScalar())
+
+                    If userCount > 0 Then
+                        MessageBox.Show("اسم المستخدم موجود بالفعل، يرجى اختيار اسم مستخدم آخر.", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                        txtUserName.Focus()
+                        txtUserName.SelectAll()
+                        Exit Sub
+                    End If
+                End Using
+
+                ' إدراج البيانات
+                Dim insertQuery As String = "INSERT INTO loginAdmin (UserName, Password, JobEmployee) VALUES (@User, @Pass, @Job)"
+                Using cmd As New SqlCommand(insertQuery, conn)
+                    cmd.Parameters.Add("@User", SqlDbType.NVarChar).Value = txtUserName.Text.Trim()
+                    cmd.Parameters.Add("@Pass", SqlDbType.NVarChar).Value = txtPassword.Text.Trim()
+                    cmd.Parameters.Add("@Job", SqlDbType.NVarChar).Value = cbJobEmployee.Text.Trim()
+
+                    cmd.ExecuteNonQuery()
+                End Using
+            End Using
+
+            ' 7. نجاح العملية وتفريغ الحقول
+            MessageBox.Show("تم حفظ المستخدم بنجاح", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            txtUserName.Clear()
+            txtPassword.Clear()
+            txtPassword2.Clear()
+            cbJobEmployee.SelectedIndex = -1
+
         Catch ex As Exception
             MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
-
     End Sub
 
+    ' حذف مستخدم
     Private Sub btndelete_Click(sender As Object, e As EventArgs) Handles btndelete.Click
         Try
-            If txtUserName.Text = "" Then
-                MessageBox.Show("من فضلك ادخل اسم المستخدم", "ستوديو وفيديو طاهر")
-                Return
+            If String.IsNullOrWhiteSpace(txtUserName.Text) Then
+                MessageBox.Show("من فضلك ادخل اسم المستخدم", "ستوديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 txtUserName.Focus()
+                Exit Sub
             End If
 
-            If MessageBox.Show("هل انت تريد حذف هذا المستخدم", "ستوديو وفيديو طاهر", MessageBoxButtons.YesNo) = Windows.Forms.DialogResult.Yes Then
-                myconnaction()
-                cmd = New SqlCommand("DELETE FROM loginAdmin WHERE UserName ='" & txtUserName.Text & "'", conn)
-                If conn.State = ConnectionState.Open Then conn.Close()
-                conn.Open()
-                cmd.ExecuteNonQuery()
-                conn.Close()
-                MessageBox.Show("تم الحذف بنجاح", "ستوديو وفيديو طاهر")
+            If MessageBox.Show("هل انت تريد حذف هذا المستخدم؟", "ستوديو وفيديو طاهر", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+                Dim query As String = "DELETE FROM loginAdmin WHERE UserName = @User"
+
+                Using conn As New SqlConnection(Module1.ConStr)
+                    Using cmd As New SqlCommand(query, conn)
+                        cmd.Parameters.Add("@User", SqlDbType.NVarChar).Value = txtUserName.Text.Trim()
+
+                        conn.Open()
+                        Dim rowsAffected As Integer = cmd.ExecuteNonQuery()
+
+                        If rowsAffected > 0 Then
+                            MessageBox.Show("تم الحذف بنجاح", "ستوديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                            txtUserName.Clear()
+                        Else
+                            MessageBox.Show("اسم المستخدم غير موجود", "ستوديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                        End If
+                    End Using
+                End Using
             End If
         Catch ex As Exception
             MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
-
     End Sub
+
+    ' توليد السيريال من معالج الجهاز
     Private Sub btnserial_Click(sender As Object, e As EventArgs) Handles btnserial.Click
         Try
-            Dim Searcher As ManagementObjectSearcher
-            Searcher = New ManagementObjectSearcher("Select ProcessorId From Win32_Processor")
-            For Each Device As ManagementObject In Searcher.Get
+            Dim Searcher As New ManagementObjectSearcher("Select ProcessorId From Win32_Processor")
+            For Each Device As ManagementObject In Searcher.Get()
                 For Each Prop As PropertyData In Device.Properties
-                    idp = (Prop.Value.ToString)
+                    If Prop.Value IsNot Nothing Then
+                        idp = Prop.Value.ToString()
+                    End If
                 Next
             Next
+
+            ' يستدعي الدالين المعرفتين في الـ Module
             idp = Obfuscate(idp)
             idp = Str2Int(idp)
             TextBoxReg.Text = idp
+
             idp1 = Obfuscate(idp)
             idp1 = Str2Int(idp1)
-            idp1 = (idp1.Substring(0, 14))
+            If idp1.Length >= 14 Then
+                idp1 = idp1.Substring(0, 14)
+            End If
         Catch ex As Exception
             MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
-
     End Sub
 
+    ' إضافة مقاس صورة وسعر جديد
     Private Sub btnaddLBsize_Click(sender As Object, e As EventArgs) Handles btnaddLBsize.Click
         Try
-            If Len(Trim(txtLBsize.Text)) = 0 Then
+            If String.IsNullOrWhiteSpace(txtLBsize.Text) Then
                 MessageBox.Show("من فضلك ادخل المقاس", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 txtLBsize.Focus()
-                Return
+                Exit Sub
             End If
-            If Len(Trim(txtcbprise.Text)) = 0 Then
+
+            If String.IsNullOrWhiteSpace(txtcbprise.Text) Then
                 MessageBox.Show("من فضلك ادخل السعر", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 txtcbprise.Focus()
-                Return
+                Exit Sub
             End If
-            myconnaction2()
-            cmd = New SqlCommand("INSERT INTO disgnphoto(custsize,custprise)" & _
-          "VALUES('" & txtLBsize.Text & "','" & txtcbprise.Text & "')", conn)
-            If conn.State = ConnectionState.Open Then conn.Close()
-            conn.Open()
-            cmd.ExecuteNonQuery()
-            conn.Close()
-            MessageBox.Show("تم حفظ الاعدادات بنجاح", "ستديو وفيديو طاهر")
-            txtLBsize.Text = ""
-            txtcbprise.Text = ""
-        Catch ex As SqlException
-            MsgBox(ex.Message, "ستديو وفيديو طاهر")
+
+            Dim query As String = "INSERT INTO disgnphoto (custsize, custprise) VALUES (@Size, @Price)"
+
+            Using conn As New SqlConnection(Module1.ConStr)
+                Using cmd As New SqlCommand(query, conn)
+                    cmd.Parameters.Add("@Size", SqlDbType.NVarChar).Value = txtLBsize.Text.Trim()
+                    cmd.Parameters.Add("@Price", SqlDbType.NVarChar).Value = txtcbprise.Text.Trim()
+
+                    conn.Open()
+                    cmd.ExecuteNonQuery()
+                End Using
+            End Using
+
+            MessageBox.Show("تم حفظ الاعدادات بنجاح", "ستديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            txtLBsize.Clear()
+            txtcbprise.Clear()
+
+        Catch ex As Exception
+            MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
     End Sub
+
+    ' حذف مقاس
     Private Sub btncleansi_Click(sender As Object, e As EventArgs) Handles btncleansi.Click
         Try
-            If MessageBox.Show("هل انت تريد حذف هذا المقاس", "ستوديو وفيديو طاهر", MessageBoxButtons.YesNo) = Windows.Forms.DialogResult.Yes Then
-                myconnaction2()
-                cmd = New SqlCommand("DELETE FROM disgnphoto WHERE custsize ='" & txtLBsize.Text & "'", conn)
-                If conn.State = ConnectionState.Open Then conn.Close()
-                conn.Open()
-                cmd.ExecuteNonQuery()
-                conn.Close()
-                MessageBox.Show("تم الحذف بنجاح", "ستوديو وفيديو طاهر")
+            If String.IsNullOrWhiteSpace(txtLBsize.Text) Then
+                MessageBox.Show("من فضلك ادخل المقاس المراد حذفه", "ستوديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                txtLBsize.Focus()
+                Exit Sub
+            End If
+
+            If MessageBox.Show("هل انت تريد حذف هذا المقاس؟", "ستوديو وفيديو طاهر", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+                Dim query As String = "DELETE FROM disgnphoto WHERE custsize = @Size"
+
+                Using conn As New SqlConnection(Module1.ConStr)
+                    Using cmd As New SqlCommand(query, conn)
+                        cmd.Parameters.Add("@Size", SqlDbType.NVarChar).Value = txtLBsize.Text.Trim()
+
+                        conn.Open()
+                        cmd.ExecuteNonQuery()
+                    End Using
+                End Using
+
+                MessageBox.Show("تم الحذف بنجاح", "ستوديو وفيديو طاهر", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                txtLBsize.Clear()
             End If
         Catch ex As Exception
             MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
-
     End Sub
 
+    ' تحميل إعدادات الشاشة عند الفتح
     Private Sub frmtools_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
             If My.Settings.mysavety = True Then
@@ -215,20 +286,19 @@ Public Class frmtools
         Catch ex As Exception
             MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
-
     End Sub
 
+    ' قبول أرقام فقط في خانة السعر
     Private Sub txtcbprise_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtcbprise.KeyPress
         Try
             e.Handled = OnlyNumeric(Asc(e.KeyChar))
         Catch ex As Exception
             MessageBox.Show(ex.Message, "ستديو وفيديو طاهر")
         End Try
-
     End Sub
 
+    ' قبول أرقام فقط في خانة كود المستخدم
     Private Sub TextBoxUser_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBoxUser.KeyPress
-
         Try
             e.Handled = OnlyNumeric(Asc(e.KeyChar))
         Catch ex As Exception
@@ -236,28 +306,4 @@ Public Class frmtools
         End Try
     End Sub
 
-    Private Sub cbJobEmployee_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbJobEmployee.SelectedIndexChanged
-
-    End Sub
-
-    Private Sub TabPage4_Click(sender As Object, e As EventArgs) Handles TabPage4.Click
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
-    End Sub
-
-
-    Private Sub Labeserialsend_Click(sender As Object, e As EventArgs) Handles Labeserialsend.Click
-
-    End Sub
-
-    Private Sub Labeserial_Click(sender As Object, e As EventArgs) Handles Labeserial.Click
-
-    End Sub
 End Class

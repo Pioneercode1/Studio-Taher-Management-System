@@ -447,13 +447,15 @@
     <None Include="Resources\xfce-graphics.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\script.sql" />
+    <Content Include="Data\StudioTaher.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\StudioTaher_log.ldf">
+      <DependentUpon>StudioTaher.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Imagenes II.ico" />
-    <Content Include="StudioTaher.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="StudioTaher_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="Resources\010.jpg" />
     <None Include="Resources\Untitledععع.png" />
     <None Include="Resources\Untitledححح.png" />

@@ -1,7 +1,12 @@
-﻿Imports System.IO
+﻿Imports System.Data.SqlClient
+Imports System.IO
 Module Module1
     Dim mynew As String
     Public cuname As String
+
+    Public ConStr As String = "Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;"
+    Public NewConn As New SqlConnection(ConStr)
+
     'Public Sub mycreatefolderone()
 
     '    If My.Settings.mycreatefo = True Then Return

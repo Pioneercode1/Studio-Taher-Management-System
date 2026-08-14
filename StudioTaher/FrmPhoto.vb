@@ -2,6 +2,7 @@
 Imports System.Data.SqlClient
 Imports System.IO
 Imports System.Management
+Imports Microsoft.SqlServer
 Public Class FrmPhoto
     Dim Idp As String
     Dim Idp1 As String
@@ -12,6 +13,7 @@ Public Class FrmPhoto
     Public dv As New DataView
     Public cur As CurrencyManager
     Public cmd As New SqlCommand
+
     Public Sub myconnaction()
         Try
             Conn = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB; INITIAL CATALOG=StudioTaher;INTEGRATED SECURITY=True;")

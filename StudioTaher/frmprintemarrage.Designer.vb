@@ -115,6 +115,7 @@ Partial Class frmprintemarrage
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "StudioTaher.Report3.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(3, 36)
         Me.ReportViewer1.Name = "ReportViewer1"
+        Me.ReportViewer1.ServerReport.BearerToken = Nothing
         Me.ReportViewer1.Size = New System.Drawing.Size(517, 397)
         Me.ReportViewer1.TabIndex = 188
         '
@@ -138,7 +139,7 @@ Partial Class frmprintemarrage
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmprintemarrage"
         Me.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Text = "frmprintemarrage"
+        Me.Text = "7"
         CType(Me.marageBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.StudioTaherDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
