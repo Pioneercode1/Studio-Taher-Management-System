@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|e:\\csharp\\studio-taher-3.0\\studiotaher\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|solutionrelative:frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|e:\\csharp\\studio-taher-3.0\\studiotaher\\frmmarrage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|solutionrelative:frmmarrage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|e:\\csharp\\studio-taher-3.0\\studiotaher\\frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|solutionrelative:frmtools.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|e:\\csharp\\studio-taher-3.0\\studiotaher\\frmmarrage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0C5A6DC4-0BB5-406B-B5A8-71B1A7D6CF18}|StudioTaher.vbproj|solutionrelative:frmmarrage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmtools.vb",
-              "DocumentMoniker": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\frmtools.vb",
-              "RelativeDocumentMoniker": "frmtools.vb",
-              "ToolTip": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\frmtools.vb*",
-              "RelativeToolTip": "frmtools.vb*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Title": "FrmMarrage.vb",
+              "DocumentMoniker": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\FrmMarrage.vb",
+              "RelativeDocumentMoniker": "FrmMarrage.vb",
+              "ToolTip": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\FrmMarrage.vb",
+              "RelativeToolTip": "FrmMarrage.vb",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAcwIsBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-08-14T15:29:45.684Z",
+              "WhenOpened": "2026-08-14T15:44:45.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmtools.vb [Design]",
-              "DocumentMoniker": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\frmtools.vb",
-              "RelativeDocumentMoniker": "frmtools.vb",
-              "ToolTip": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\frmtools.vb [Design]*",
-              "RelativeToolTip": "frmtools.vb [Design]*",
+              "Title": "FrmMarrage.vb [Design]",
+              "DocumentMoniker": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\FrmMarrage.vb",
+              "RelativeDocumentMoniker": "FrmMarrage.vb",
+              "ToolTip": "E:\\CSharp\\Studio-Taher-3.0\\StudioTaher\\FrmMarrage.vb [Design]",
+              "RelativeToolTip": "FrmMarrage.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-08-14T15:29:35.734Z",
+              "WhenOpened": "2026-08-14T15:44:43.759Z",
               "EditorCaption": " [Design]"
             }
           ]
