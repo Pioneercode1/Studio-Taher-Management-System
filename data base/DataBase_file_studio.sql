@@ -1,9 +1,25 @@
-USE [StudioTaher]
+-- 1. إنشاء قاعدة البيانات إذا لم تكن موجودة مسبقاً
+IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'StudioTaher')
+BEGIN
+    CREATE DATABASE [StudioTaher];
+END
 GO
 
-SET ANSI_NULLS ON
+USE [StudioTaher];
 GO
-SET QUOTED_IDENTIFIER ON
+
+SET ANSI_NULLS ON;
+GO
+SET QUOTED_IDENTIFIER ON;
+GO
+
+-- 2. إزالة الجداول القديمة (إن وجدت) لضمان البناء النظيف من الصفر
+IF OBJECT_ID(N'dbo.CustomerVideo', N'U') IS NOT NULL DROP TABLE [dbo].[CustomerVideo];
+IF OBJECT_ID(N'dbo.disgnphoto', N'U') IS NOT NULL DROP TABLE [dbo].[disgnphoto];
+IF OBJECT_ID(N'dbo.EmployeeResource', N'U') IS NOT NULL DROP TABLE [dbo].[EmployeeResource];
+IF OBJECT_ID(N'dbo.loginAdmin', N'U') IS NOT NULL DROP TABLE [dbo].[loginAdmin];
+IF OBJECT_ID(N'dbo.marage', N'U') IS NOT NULL DROP TABLE [dbo].[marage];
+IF OBJECT_ID(N'dbo.CustomerPhoto', N'U') IS NOT NULL DROP TABLE [dbo].[CustomerPhoto];
 GO
 
 -- 1. إنشاء جدول طلبات الفيديو
@@ -24,14 +40,14 @@ CREATE TABLE [dbo].[CustomerVideo](
 	[CusNotes] [nvarchar](300) NULL,
 	[CusGavet] [nvarchar](100) NULL,
  CONSTRAINT [PK_CustomerVideo] PRIMARY KEY CLUSTERED ([CusId] ASC)
-) ON [PRIMARY]
+) ON [PRIMARY];
 GO
 
 -- 2. إنشاء جدول أسعار تصميم الصور
 CREATE TABLE [dbo].[disgnphoto](
 	[custsize] [nvarchar](50) NOT NULL,
 	[custprise] [decimal](8, 2) NOT NULL
-) ON [PRIMARY]
+) ON [PRIMARY];
 GO
 
 -- 3. إنشاء جدول بيانات الموظفين
@@ -48,7 +64,7 @@ CREATE TABLE [dbo].[EmployeeResource](
 	[WorkDate] [date] NULL,
 	[EmpNotes] [nvarchar](300) NULL,
  CONSTRAINT [PK_EmployeeResource] PRIMARY KEY CLUSTERED ([EmpId] ASC)
-) ON [PRIMARY]
+) ON [PRIMARY];
 GO
 
 -- 4. إنشاء جدول تسجيل الدخول والصلاحيات
@@ -57,7 +73,7 @@ CREATE TABLE [dbo].[loginAdmin](
 	[Password] [nvarchar](10) NOT NULL,
 	[JobEmployee] [nvarchar](25) NOT NULL,
  CONSTRAINT [PK_loginAdmin] PRIMARY KEY CLUSTERED ([Password] ASC)
-) ON [PRIMARY]
+) ON [PRIMARY];
 GO
 
 -- 5. إنشاء جدول حجوزات الزفاف
@@ -77,7 +93,7 @@ CREATE TABLE [dbo].[marage](
 	[OrderBy] [nvarchar](50) NULL,
 	[AboutOrder] [nvarchar](50) NULL,
  CONSTRAINT [PK_marage] PRIMARY KEY CLUSTERED ([CusId] ASC)
-) ON [PRIMARY]
+) ON [PRIMARY];
 GO
 
 -- 6. إنشاء جدول طلبات الصور
@@ -97,5 +113,5 @@ CREATE TABLE [dbo].[CustomerPhoto](
 	[CusNotes] [nvarchar](300) NULL,
 	[CusPhone] [nvarchar](30) NULL,
  CONSTRAINT [PK_CustomerPhoto] PRIMARY KEY CLUSTERED ([CusId] ASC)
-) ON [PRIMARY]
+) ON [PRIMARY];
 GO
