@@ -1,5 +1,7 @@
 # Studio Taher Management System
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 **Studio Taher Management System** is a desktop application developed to manage and organize the daily operations of **Studio Taher**, including customer management, bookings, services, work records, and reporting.
 
 The project was originally started in **2015** and has been designed to provide a practical and organized solution for managing studio operations and customer information.
@@ -109,3 +111,9 @@ Studio Taher Management System is designed as a scalable desktop management solu
 **Started in 2015**
 
 Built with **VB.NET + Microsoft SQL Server + .NET + ReportViewer + Visual Studio**
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2026 pioneercode, Inc.
